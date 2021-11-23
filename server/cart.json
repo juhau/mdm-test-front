@@ -1,170 +1,302 @@
 {
   "cart": {
-    "166174": {
-      "name": "Canapé-lit style scandinave 3 places gris clair",
-      "price": {
-        "base": {
-          "amount": 699,
-          "formatted": "699,00 €"
+    {
+      "quantity": 5,
+      "freeShippingMessage": null,
+      "freeShippingOffer": false,
+      "groupedItems": [{
+        "reference": null,
+        "quantity": 5,
+        "merchant": {
+          "name": "Maisons du Monde",
+          "reference": "BL_MDM",
+          "score": null,
+          "__typename": "MerchantType"
         },
-        "sales": {
+        "items": [{
+            "reference": "24800587",
+            "quantity": 1,
+            "maxQuantityToBuy": 30,
+            "total": {
+              "base": {
+                "amount": 899,
+                "formatted": "899,00 €",
+                "__typename": "PriceType"
+              },
+              "sales": {
+                "amount": 0,
+                "formatted": "",
+                "__typename": "PriceType"
+              },
+              "eco": {
+                "amount": 20.5,
+                "formatted": "20,50 €",
+                "__typename": "PriceType"
+              },
+              "__typename": "CartItemPriceType"
+            },
+            "product": {
+              "reference": "217299",
+              "quantitySet": 1,
+              "name": "Canapé-lit 3/4 places en velours vert",
+              "line": "Olivia",
+              "brand": "Maisons du Monde",
+              "marketplace": false,
+              "type": "MEUBLE",
+              "slug": "canape-lit-3-4-places-en-velours-vert-olivia",
+              "stock": {
+                "state": true,
+                "message": "En stock",
+                "status": "IN_STOCK",
+                "__typename": "StockType"
+              },
+              "buyable": true,
+              "images": [{
+                  "src": "https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_1000/img/canape-lit-3-4-places-en-velours-vert-1000-5-40-217299_1.jpg",
+                  "srcset": "https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_100/img/canape-lit-3-4-places-en-velours-vert-1000-5-40-217299_1.jpg 100w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_200/img/canape-lit-3-4-places-en-velours-vert-1000-5-40-217299_1.jpg 200w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_350/img/canape-lit-3-4-places-en-velours-vert-1000-5-40-217299_1.jpg 350w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_500/img/canape-lit-3-4-places-en-velours-vert-1000-5-40-217299_1.jpg 500w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_1000/img/canape-lit-3-4-places-en-velours-vert-1000-5-40-217299_1.jpg 1000w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_2000/img/canape-lit-3-4-places-en-velours-vert-1000-5-40-217299_1.jpg 2000w",
+                  "__typename": "CloudinaryImageType"
+                },
+                {
+                  "src": "https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_1000/img/canape-lit-3-4-places-en-velours-vert-1000-5-40-217299_2.jpg",
+                  "srcset": "https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_100/img/canape-lit-3-4-places-en-velours-vert-1000-5-40-217299_2.jpg 100w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_200/img/canape-lit-3-4-places-en-velours-vert-1000-5-40-217299_2.jpg 200w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_350/img/canape-lit-3-4-places-en-velours-vert-1000-5-40-217299_2.jpg 350w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_500/img/canape-lit-3-4-places-en-velours-vert-1000-5-40-217299_2.jpg 500w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_1000/img/canape-lit-3-4-places-en-velours-vert-1000-5-40-217299_2.jpg 1000w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_2000/img/canape-lit-3-4-places-en-velours-vert-1000-5-40-217299_2.jpg 2000w",
+                  "__typename": "CloudinaryImageType"
+                }
+              ],
+              "price": {
+                "base": {
+                  "amount": 899,
+                  "formatted": "899,00 €",
+                  "__typename": "PriceType"
+                },
+                "sales": {
+                  "amount": 0,
+                  "formatted": "",
+                  "__typename": "PriceType"
+                },
+                "eco": {
+                  "amount": 20.5,
+                  "formatted": "20,50 €",
+                  "__typename": "PriceType"
+                },
+                "unit": {
+                  "amount": 0,
+                  "formatted": "0,00 €",
+                  "__typename": "PriceType"
+                },
+                "__typename": "ProductPriceType"
+              },
+              "flags": [{
+                "name": "Nouveau",
+                "color": "#856514 ",
+                "code": "CATEGORY_STICKER",
+                "__typename": "FlagContentType"
+              }],
+              "__typename": "ProductType"
+            },
+            "__typename": "CartItemType"
+          },
+          {
+            "reference": "28109011",
+            "quantity": 1,
+            "maxQuantityToBuy": 30,
+            "total": {
+              "base": {
+                "amount": 479,
+                "formatted": "479,00 €",
+                "__typename": "PriceType"
+              },
+              "sales": {
+                "amount": 0,
+                "formatted": "",
+                "__typename": "PriceType"
+              },
+              "eco": {
+                "amount": 3,
+                "formatted": "3,00 €",
+                "__typename": "PriceType"
+              },
+              "__typename": "CartItemPriceType"
+            },
+            "product": {
+              "reference": "133399",
+              "quantitySet": 1,
+              "name": "Fauteuil capitonné en lin",
+              "line": "Dorchester",
+              "brand": "Maisons du Monde",
+              "marketplace": false,
+              "type": "MEUBLE",
+              "slug": "fauteuil-capitonne-en-lin-dorchester",
+              "stock": {
+                "state": true,
+                "message": "En stock",
+                "status": "IN_STOCK",
+                "__typename": "StockType"
+              },
+              "buyable": true,
+              "images": [{
+                  "src": "https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_1000/img/fauteuil-capitonne-en-lin-1000-0-26-133399_1.jpg",
+                  "srcset": "https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_100/img/fauteuil-capitonne-en-lin-1000-0-26-133399_1.jpg 100w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_200/img/fauteuil-capitonne-en-lin-1000-0-26-133399_1.jpg 200w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_350/img/fauteuil-capitonne-en-lin-1000-0-26-133399_1.jpg 350w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_500/img/fauteuil-capitonne-en-lin-1000-0-26-133399_1.jpg 500w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_1000/img/fauteuil-capitonne-en-lin-1000-0-26-133399_1.jpg 1000w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_2000/img/fauteuil-capitonne-en-lin-1000-0-26-133399_1.jpg 2000w",
+                  "__typename": "CloudinaryImageType"
+                },
+                {
+                  "src": "https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_1000/img/fauteuil-capitonne-en-lin-1000-0-26-133399_11.jpg",
+                  "srcset": "https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_100/img/fauteuil-capitonne-en-lin-1000-0-26-133399_11.jpg 100w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_200/img/fauteuil-capitonne-en-lin-1000-0-26-133399_11.jpg 200w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_350/img/fauteuil-capitonne-en-lin-1000-0-26-133399_11.jpg 350w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_500/img/fauteuil-capitonne-en-lin-1000-0-26-133399_11.jpg 500w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_1000/img/fauteuil-capitonne-en-lin-1000-0-26-133399_11.jpg 1000w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_2000/img/fauteuil-capitonne-en-lin-1000-0-26-133399_11.jpg 2000w",
+                  "__typename": "CloudinaryImageType"
+                }
+              ],
+              "price": {
+                "base": {
+                  "amount": 479,
+                  "formatted": "479,00 €",
+                  "__typename": "PriceType"
+                },
+                "sales": {
+                  "amount": 0,
+                  "formatted": "",
+                  "__typename": "PriceType"
+                },
+                "eco": {
+                  "amount": 3,
+                  "formatted": "3,00 €",
+                  "__typename": "PriceType"
+                },
+                "unit": {
+                  "amount": 0,
+                  "formatted": "0,00 €",
+                  "__typename": "PriceType"
+                },
+                "__typename": "ProductPriceType"
+              },
+              "flags": [{
+                "name": "Responsable",
+                "color": "#C9D2BE",
+                "code": "CATEGORY_STICKER",
+                "__typename": "FlagContentType"
+              }],
+              "__typename": "ProductType"
+            },
+            "__typename": "CartItemType"
+          },
+          {
+            "reference": "28108977",
+            "quantity": 3,
+            "maxQuantityToBuy": 30,
+            "total": {
+              "base": {
+                "amount": 89.82,
+                "formatted": "89,82 €",
+                "__typename": "PriceType"
+              },
+              "sales": {
+                "amount": 0,
+                "formatted": "",
+                "__typename": "PriceType"
+              },
+              "eco": {
+                "amount": 0,
+                "formatted": "0,00 €",
+                "__typename": "PriceType"
+              },
+              "__typename": "CartItemPriceType"
+            },
+            "product": {
+              "reference": "186149",
+              "quantitySet": 6,
+              "name": "Gobelet en verre à spirale dorée",
+              "line": "",
+              "brand": "Maisons du Monde",
+              "marketplace": false,
+              "type": "MLP",
+              "slug": "gobelet-en-verre-a-spirale-doree",
+              "stock": {
+                "state": true,
+                "message": "En stock",
+                "status": "IN_STOCK",
+                "__typename": "StockType"
+              },
+              "buyable": true,
+              "images": [{
+                "src": "https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_1000/img/gobelet-en-verre-a-spirale-doree-1000-16-9-186149_2.jpg",
+                "srcset": "https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_100/img/gobelet-en-verre-a-spirale-doree-1000-16-9-186149_2.jpg 100w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_200/img/gobelet-en-verre-a-spirale-doree-1000-16-9-186149_2.jpg 200w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_350/img/gobelet-en-verre-a-spirale-doree-1000-16-9-186149_2.jpg 350w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_500/img/gobelet-en-verre-a-spirale-doree-1000-16-9-186149_2.jpg 500w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_1000/img/gobelet-en-verre-a-spirale-doree-1000-16-9-186149_2.jpg 1000w,https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_2000/img/gobelet-en-verre-a-spirale-doree-1000-16-9-186149_2.jpg 2000w",
+                "__typename": "CloudinaryImageType"
+              }],
+              "price": {
+                "base": {
+                  "amount": 29.94,
+                  "formatted": "29,94 €",
+                  "__typename": "PriceType"
+                },
+                "sales": {
+                  "amount": 0,
+                  "formatted": "",
+                  "__typename": "PriceType"
+                },
+                "eco": {
+                  "amount": 0,
+                  "formatted": "0,00 €",
+                  "__typename": "PriceType"
+                },
+                "unit": {
+                  "amount": 4.99,
+                  "formatted": "4,99 €",
+                  "__typename": "PriceType"
+                },
+                "__typename": "ProductPriceType"
+              },
+              "flags": [{
+                "name": "Responsable",
+                "color": "#C9D2BE",
+                "code": "CATEGORY_STICKER",
+                "__typename": "FlagContentType"
+              }],
+              "__typename": "ProductType"
+            },
+            "__typename": "CartItemType"
+          }
+        ],
+        "__typename": "CartGroupedItemsType"
+      }],
+      "total": {
+        "base": {
+          "amount": 1467.82,
+          "formatted": "1 467,82 €",
+          "__typename": "PriceType"
+        },
+        "discount": {
           "amount": 0,
-          "formatted": "0,00 €"
+          "formatted": "",
+          "__typename": "PriceType"
         },
         "eco": {
-          "amount": 10.5,
-          "formatted": "10,50 €"
-        }
-      },
-      "reference": "166174",
-      "line": "Brooke",
-      "slug": "canape-lit-style-scandinave-3-places-gris-clair-brooke",
-      "stock": {
-        "state": true
-      },
-      "images": [
-        {
-          "xsmall": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-200-16-1-166174_5.jpg",
-          "small": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-350-16-1-166174_5.jpg",
-          "medium": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-500-16-1-166174_5.jpg",
-          "large": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-1000-16-1-166174_5.jpg"
+          "amount": 23.5,
+          "formatted": "23,50 €",
+          "__typename": "PriceType"
         },
-        {
-          "xsmall": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-200-16-1-166174_7.jpg",
-          "small": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-350-16-1-166174_7.jpg",
-          "medium": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-500-16-1-166174_7.jpg",
-          "large": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-1000-16-1-166174_7.jpg"
-        }
-      ],
-      "qty": 3
-    },
-    "188239": {
-      "name": "Canapé d'angle convertible 3/4 places bleu nuit",
-      "price": {
-        "base": {
-          "amount": 599,
-          "formatted": "599,00 €"
-        },
-        "sales": {
+        "shipping": {
           "amount": 0,
-          "formatted": "0,00 €"
+          "formatted": "0,00 €",
+          "__typename": "PriceType"
         },
-        "eco": {
-          "amount": 10.5,
-          "formatted": "10,50 €"
-        }
-      },
-      "reference": "188239",
-      "line": "Montréal",
-      "slug": "canape-d-angle-convertible-3-4-places-bleu-nuit-montreal",
-      "stock": {
-        "state": true
-      },
-      "images": [
-        {
-          "xsmall": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-200-15-8-188239_1.jpg",
-          "small": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-350-15-8-188239_1.jpg",
-          "medium": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-500-15-8-188239_1.jpg",
-          "large": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-1000-15-8-188239_1.jpg"
-        },
-        {
-          "xsmall": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-200-15-8-188239_3.jpg",
-          "small": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-350-15-8-188239_3.jpg",
-          "medium": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-500-15-8-188239_3.jpg",
-          "large": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-1000-15-8-188239_3.jpg"
-        }
-      ],
-      "flag": {
-        "name": "new",
-        "color": "#c4a181",
-        "payload": null,
-        "weight": 1
-      },
-      "qty": 1
-    }
-  },
-  "products": {
-    "166174": {
-      "name": "Canapé-lit style scandinave 3 places gris clair",
-      "price": {
-        "base": {
-          "amount": 699,
-          "formatted": "699,00 €"
-        },
-        "sales": {
+        "estimatedShipping": {
           "amount": 0,
-          "formatted": "0,00 €"
+          "formatted": "0,00 €",
+          "__typename": "PriceType"
         },
-        "eco": {
-          "amount": 10.5,
-          "formatted": "10,50 €"
-        }
-      },
-      "reference": "166174",
-      "line": "Brooke",
-      "slug": "canape-lit-style-scandinave-3-places-gris-clair-brooke",
-      "stock": {
-        "state": true
-      },
-      "images": [
-        {
-          "xsmall": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-200-16-1-166174_5.jpg",
-          "small": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-350-16-1-166174_5.jpg",
-          "medium": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-500-16-1-166174_5.jpg",
-          "large": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-1000-16-1-166174_5.jpg"
+        "estimatedTotal": {
+          "amount": 1467.82,
+          "formatted": "1 467,82 €",
+          "__typename": "PriceType"
         },
-        {
-          "xsmall": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-200-16-1-166174_7.jpg",
-          "small": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-350-16-1-166174_7.jpg",
-          "medium": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-500-16-1-166174_7.jpg",
-          "large": "//cdn.maisonsdumonde.com/img/canape-lit-style-scandinave-3-places-gris-clair-1000-16-1-166174_7.jpg"
-        }
-      ],
-      "qty": 2
-    },
-    "188239": {
-      "name": "Canapé d'angle convertible 3/4 places bleu nuit",
-      "price": {
-        "base": {
-          "amount": 599,
-          "formatted": "599,00 €"
+        "total": {
+          "amount": 1467.82,
+          "formatted": "1 467,82 €",
+          "__typename": "PriceType"
         },
-        "sales": {
-          "amount": 0,
-          "formatted": "0,00 €"
+        "baseWithoutTax": {
+          "amount": 1223.19,
+          "__typename": "PriceType"
         },
-        "eco": {
-          "amount": 10.5,
-          "formatted": "10,50 €"
-        }
-      },
-      "reference": "188239",
-      "line": "Montréal",
-      "slug": "canape-d-angle-convertible-3-4-places-bleu-nuit-montreal",
-      "stock": {
-        "state": true
-      },
-      "images": [
-        {
-          "xsmall": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-200-15-8-188239_1.jpg",
-          "small": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-350-15-8-188239_1.jpg",
-          "medium": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-500-15-8-188239_1.jpg",
-          "large": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-1000-15-8-188239_1.jpg"
-        },
-        {
-          "xsmall": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-200-15-8-188239_3.jpg",
-          "small": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-350-15-8-188239_3.jpg",
-          "medium": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-500-15-8-188239_3.jpg",
-          "large": "//cdn.maisonsdumonde.com/img/canape-d-angle-convertible-3-4-places-bleu-nuit-1000-15-8-188239_3.jpg"
-        }
-      ],
-      "flag": {
-        "name": "new",
-        "color": "#c4a181",
-        "payload": null,
-        "weight": 1
-      },
-      "qty": 1
-    }
+        "__typename": "TotalPriceType"
+      }
   }
 }
