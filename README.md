@@ -20,10 +20,10 @@ vous aurez la possibilité de
 - En tant qu'utilisateur, j'ai besoin de me rendre sur la page panier
     - création d'une page `CART`
 
-- En tant qu'utilisateur, j'ai doit pouvoir consulter le contenu de mon panier
+- En tant qu'utilisateur, je dois pouvoir consulter le contenu de mon panier
     - création d'un composant de type panier.
 
-- En tant qu'utilisateur, j'ai doit pouvoir consulter le contenu de mon panier
+- En tant qu'utilisateur, je dois pouvoir consulter le contenu de mon panier
     - mise en place d'un call permettant de récupérer les données du panier
 
 - En tant qu'utilisateur, je dois pouvoir consulter les informations suivantes
