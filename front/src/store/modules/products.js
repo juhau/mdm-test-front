@@ -11,6 +11,7 @@ export default {
       (total, product) => total + product.price.base.amount * product.qty,
       0,
     ),
+    cartTotalProduct: (state, getters) => getters.productsArray.length,
   },
   mutations: {
     setProducts(state, products) {
