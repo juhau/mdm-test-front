@@ -1,0 +1,35 @@
+version: "3"
+services:
+  
+  front:
+   build:
+      context: ./front
+      dockerfile: Dockerfile.dev
+   ports:
+    -  8080:8080
+   container_name: mdm-front
+   networks:
+    -  vue-stack-net
+   volumes:
+    -  ./front/src:/usr/app/src
+    -  ./front/public:/usr/app/public
+   depends_on:
+    - server
+   stdin_open: true
+   tty: true
+
+  server:
+   build:
+      context: ./server
+      dockerfile: Dockerfile.dev
+   ports:
+     - 3000:3000
+   container_name: mdm-server
+   networks:
+     - vue-stack-net
+   volumes:
+    - ./api/src:/usr/app/src
+
+networks:
+  vue-stack-net:
+    driver: bridge
