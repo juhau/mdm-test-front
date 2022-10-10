@@ -1,33 +1,36 @@
 <template>
-  <table class="items">
-    <thead>
-    <tr>
-      <th>Image</th>
-      <th>Nom</th>
-      <th>Prix</th>
-      <th>Quantité</th>
-      <th>Suppression</th>
-      <th>Référence</th>
-    </tr>
-    </thead>
-    <tbody>
-    <CartItem
-      v-for="product of productsArray"
-      :key="product.reference"
-      :reference="product.reference"
-      :image="product.images[0].xsmall"
-      :name="product.name"
-      :quantity="product.qty"
-      :price="product.price"
-    />
-    </tbody>
-    <tfoot>
-    <tr>
-      <th>Total</th>
-      <td colspan="5">{{ cartTotalPrice | currency }}</td>
-    </tr>
-    </tfoot>
-  </table>
+  <div class="container">
+    <p v-if="isLoading">Chargement en cours ...</p>
+    <table  v-else class="items">
+      <thead>
+      <tr>
+        <th>Image</th>
+        <th>Nom</th>
+        <th>Prix</th>
+        <th>Quantité</th>
+        <th>Suppression</th>
+        <th>Référence</th>
+      </tr>
+      </thead>
+      <tbody>
+      <CartItem
+        v-for="product of productsArray"
+        :key="product.reference"
+        :reference="product.reference"
+        :image="product.images[0].xsmall"
+        :name="product.name"
+        :quantity="product.qty"
+        :price="product.price"
+      />
+      </tbody>
+      <tfoot>
+      <tr>
+        <th>Total</th>
+        <td colspan="5">{{ cartTotalPrice | currency }}</td>
+      </tr>
+      </tfoot>
+    </table>
+  </div>
 </template>
 
 <script>
@@ -69,5 +72,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+  table, th, tr{
+    border: 1px solid;
+  }
+  table {
+    border-collapse: collapse;
+    margin: auto;
+  }
 </style>
