@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "serve": "json-server --watch db.json"
+    "serve": "json-server --watch db.json --host 0.0.0.0"
   },
   "devDependencies": {
     "json-server": "^0.17.0"
