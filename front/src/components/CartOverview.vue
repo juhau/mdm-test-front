@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="panel-container">
         <div class="panel">
             <div class="header">
               <h2>Table des produits</h2>
@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container {
+.panel-container {
   position: fixed;
   top: 0;
   left: 0;
@@ -38,7 +38,8 @@ export default {
 }
 
 .panel {
-    position: fixed;
+    position: absolute;
+    z-index: 3;
     right: 0;
     top: 0;
     bottom: 0;
