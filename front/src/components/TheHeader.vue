@@ -10,8 +10,8 @@
     <TheNavBar />
     <Transition name="fade">
       <CartOverview
-        v-if="menuOpened"
-        @onClose="menuOpened = false"
+        v-if="isMenuOpen"
+        @onClose="isMenuOpen = false"
       />
     </Transition>
   </header>
@@ -25,7 +25,7 @@ export default {
   name: "Header",
   data() {
     return {
-      menuOpened: false,
+      isMenuOpen: false,
     };
   },
   components: {
@@ -34,7 +34,7 @@ export default {
   },
   methods: {
     onClickHandler() {
-      this.menuOpened = true;
+      this.isMenuOpen = true;
     },
   },
   computed: {
