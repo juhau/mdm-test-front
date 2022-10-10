@@ -11,15 +11,31 @@
             <button @click="() => updateProductQuantity(reference, -1)">-</button>
           </td>
           <td>
-            <button @click="() => removeProduct(reference)">Suppimer</button>
+            <button @click="isModalOpen = true">Suppimer</button>
+            <ConfirmModal
+              v-if="isModalOpen"
+              @onClose="isModalOpen = false"
+              @onConfirm="($event) => onConfirmHandler($event, reference)"
+            >
+                êtes vous sur de vouloir supprimé
+                l'article n°{{ reference }} ?
+            </ConfirmModal>
           </td>
           <td>{{ reference }}</td>
         </tr>
 </template>
 
 <script>
+import ConfirmModal from "./ConfirmModal.vue";
+
 export default {
+  components: { ConfirmModal },
   props: ["name", "reference", "price", "image", "quantity"],
+  data() {
+    return {
+      isModalOpen: false,
+    };
+  },
   methods: {
     updateProductQuantity(reference, quantity) {
       const payload = { reference, quantity };
@@ -27,6 +43,13 @@ export default {
     },
     removeProduct(reference) {
       this.$store.dispatch("removeProduct", reference);
+    },
+    onConfirmHandler(isConfirm, reference) {
+      console.log(isConfirm, reference);
+      if (isConfirm) {
+        this.removeProduct(reference);
+      }
+      this.isModalOpen = false;
     },
   },
 };
