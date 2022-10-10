@@ -4,7 +4,7 @@
       <li><router-link to="/">Home</router-link></li>
       <li>
         <router-link to="/cart">
-          Panier <span class="cart-items">{{ totalProducts }}</span>
+          Panier
         </router-link>
       </li>
     </ul>
@@ -14,14 +14,6 @@
 <script>
 export default {
   name: "NavBar",
-  computed: {
-    totalProducts() {
-      return this.$store.getters.cartTotalProduct;
-    },
-  },
-  async created() {
-    await this.$store.dispatch("fetchCartProducts");
-  },
 };
 </script>
 
@@ -44,12 +36,5 @@ export default {
    &.router-link-exact-active {
      color: #42b983;
    }
- }
- .cart-items {
-   display: inline-block;
-   background-color: darkcyan;
-   color: white;
-   padding: 5px;
-   border-radius: 50%;
  }
 </style>
